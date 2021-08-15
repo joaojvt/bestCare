@@ -2,10 +2,10 @@ import React from 'react'
 import './styles.scss'
 
 
-const Home = () =>{
+const Prices = () =>{
   return (
-    <h1>Home</h1>
+    <h1>Preços</h1>
   )
 }
 
-export default Home
+export default Prices

@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import logo from '../../assets/logo.svg';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,10 +13,10 @@ const Header = () => {
       </div>
 
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/">What We Offer</Link>
-        <Link to="/">Prices</Link>
-        <Link to="/">Contact</Link>
+        <NavLink exact to="/" activeClassName="selected" >Home</NavLink>
+        <NavLink to="/what-we-offer" activeClassName="selected" >What We Offer</NavLink>
+        <NavLink to="/prices" activeClassName="selected" >Prices</NavLink>
+        <NavLink to="/contact" activeClassName="selected" >Contact</NavLink>
       </nav>
     </header>
   )

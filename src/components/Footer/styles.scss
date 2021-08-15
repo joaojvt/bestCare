@@ -4,4 +4,33 @@
 footer {
   height: 145px;
   background-color: #312F2D;
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 117px;
+
+  img {
+    height: 26px;
+  }
+
+  nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;    
+
+    a{
+     color: $primary-color;
+     text-decoration: none;
+    }
+  }
+
+  .link{
+    display: flex;
+    justify-content: center;
+  }
+  .social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 15px;
+  }
 }

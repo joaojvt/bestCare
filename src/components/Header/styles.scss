@@ -27,7 +27,7 @@ header {
       transition: all 0.2s;
     }
 
-    a:hover {
+    a:hover, a.selected {
       border-bottom: solid 2px $primary-color;
     }
   }
