@@ -1,0 +1,34 @@
+@use '../../index.scss' as *;
+
+header {
+  height: 109px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  img {
+    height: 40px;
+    margin: 32px 28px;
+  }
+
+  nav {
+    width: 600px;
+    margin-right: 146px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans Regular';
+
+    a{
+      text-decoration: none;
+      color: $secondary-color;
+      font-size: 18px;
+      padding-bottom: 2px;
+      border-bottom: solid 2px transparent;
+      transition: all 0.2s;
+    }
+
+    a:hover {
+      border-bottom: solid 2px $primary-color;
+    }
+  }
+}
