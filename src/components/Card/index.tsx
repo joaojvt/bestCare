@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.scss'
 
-const Card = ({ children }) => {
+const Card = () => {
   return (
     <div className="card">
       <p>
