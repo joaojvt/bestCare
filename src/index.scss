@@ -20,10 +20,12 @@
 
 $primary-color: #FFA318;
 $secondary-color: #5F5F5F;
+$secondary-backgroud-color: #F9F9F9;
 
 *{
   margin: 0;
   box-sizing: border-box;
+  color: #5F5F5F;
 }
 
 body {
@@ -31,6 +33,17 @@ body {
   font-family: 'Open Sans Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E5E5E5;
+  background-color: #fff;
 }
 
+p{
+  color: $secondary-color;
+}
+
+
+.container{
+  width: 1145px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

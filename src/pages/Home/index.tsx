@@ -2,9 +2,16 @@ import React from 'react'
 import './styles.scss'
 
 
-const Home = () =>{
+const Home = () => {
   return (
-    <h1>Home</h1>
+    <div id="trip">
+      <p className="">
+        Going on a trip?
+      </p>
+      <p>
+        Leave <span>your best friend in the best hands</span>
+      </p>
+    </div>
   )
 }
 

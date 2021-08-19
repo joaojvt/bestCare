@@ -1,0 +1,46 @@
+@use '../../index.scss' as *;
+
+#dog-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
+
+.big-text {
+  width: 622px;
+  font-family: 'Source Sans Pro Bold';
+  font-size: 48px;
+  .yellow-text{
+    color: $primary-color;
+  }
+}
+
+.description {
+  width: 529px;
+  font-size: 18px;
+  margin-top: 35px;
+}
+
+.dog-img {
+  width: 310px;
+  background-image: url(./../../assets/backgroud-dog-golden.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  img{
+    margin-left: -25px;
+    margin-bottom: -25px;
+  }
+}
+
+#infrasctrure{
+  background-color: $secondary-backgroud-color;
+  h3{
+    font-size: 48px;
+    width: 100%;
+    height: 104px;
+    margin-top: 28px;
+    text-align: center;
+  }
+}
