@@ -6,8 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master"
+    "deploy": "gh-pages -d build",
+    "start": "vite"
   },
   "dependencies": {
     "@types/react-router-dom": "^5.1.8",

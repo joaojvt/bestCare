@@ -8,7 +8,7 @@ import Routes from './Routes'
 function App() {
 
   return (
-    <Router basename={process.env.PUBLIC_URL} >
+    <Router basename={'/bestCare/'} >
       <div id="App">
         <Header/>
         <Routes/>
