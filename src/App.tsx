@@ -8,7 +8,7 @@ import Routes from './Routes'
 function App() {
 
   return (
-    <Router>
+    <Router >
       <div id="App">
         <Header/>
         <Routes/>
