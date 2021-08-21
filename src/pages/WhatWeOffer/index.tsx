@@ -6,7 +6,7 @@ import fenceIcon from '../../assets/fence-icon.svg'
 import gridIcon from '../../assets/grid-icon.svg'
 import houseWinter from '../../assets/house-winter.svg'
 import Card from '../../components/Card/index';
-
+import womanVet from '../../assets/woman-vet.png'
 
 const WhatWeOffer = () => {
 
@@ -42,6 +42,22 @@ const WhatWeOffer = () => {
             {cardsInfo.map((cardInfo, idx) => {
               return <Card icon={cardInfo.icon} key={idx}>{cardInfo.text}</Card>
             })}
+          </div>
+        </div>
+      </div>
+      <div id="vet-container">
+        <div className="container">
+          <img src={womanVet} alt="Woman Vet" />
+          <div className="rigth-text">
+            <h3 className="big-text">
+              We have vets avaliable 24/7
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc phasellus a,
+              in eu at amet. Massa semper nulla tincidunt ut blandit senectus adipiscing dolor id.
+              Faucibus vitae vitae diam dui, felis et arcu curabitur. Aliquet varius vitae mauris
+              est tortor, maecenas.
+            </p>
           </div>
         </div>
       </div>

@@ -37,6 +37,7 @@
 #infrasctrure{
   background-color: $secondary-backgroud-color;
   height: 487px;
+  margin-bottom: 61px;
   > div{
     flex-direction: column;
   }
@@ -51,5 +52,18 @@
   .cards-container{
     display: flex;
     justify-content: space-between;
+  }
+}
+
+#vet-container{
+  p {
+    width: 529px;
+  }
+
+  .rigth-text{
+    h3{
+      height: 104px;
+      margin-top: 32px;
+    }
   }
 }
