@@ -24,8 +24,10 @@ $secondary-backgroud-color: #F9F9F9;
 
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   color: #5F5F5F;
+  border: none;
 }
 
 body {
@@ -38,6 +40,7 @@ body {
 
 p{
   color: $secondary-color;
+  font-size: 18px;
 }
 
 
@@ -46,4 +49,14 @@ p{
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+.big-text {
+  width: 622px;
+  font-family: 'Source Sans Pro Bold';
+  font-size: 48px;
+  height: 104px;
+}
+.yellow-text{
+  color: $primary-color;
 }
