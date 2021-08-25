@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [reactRefresh()],
   build: {
     outDir: './build'
-  }
+  },
+  base:'/bestCare/'
 })
