@@ -1,3 +1,5 @@
+@import './styles/vars.scss';
+
 @font-face {
   font-family: 'Open Sans Regular';
   src: url(./fonts/OpenSans-Regular.ttf);
@@ -17,10 +19,6 @@
   font-family: 'Source Sans Pro Bold';
   src: url(./fonts/SourceSansPro-Bold.ttf);
 }
-
-$primary-color: #FFA318;
-$secondary-color: #5F5F5F;
-$secondary-backgroud-color: #F9F9F9;
 
 *{
   margin: 0;
