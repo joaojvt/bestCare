@@ -8,7 +8,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 
 const Footer = () => {
-  return(
+  return (
     <footer>
       <div className="links">
         <Link to="/"><img src={logoWhite} alt="logo" /></Link>

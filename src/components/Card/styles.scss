@@ -1,4 +1,4 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
 .card {
   width: 264px;
@@ -8,12 +8,11 @@
   flex-direction: column;
   background-color: #fff;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.11);
-  
+
   padding: 39px 28px;
 
-  img{
+  img {
     margin-bottom: 33px;
     max-height: 45px;
   }
-
 }

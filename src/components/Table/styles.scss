@@ -1,24 +1,24 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
-table{
+table {
   margin: 0 auto;
   width: 500px;
   border-collapse: collapse;
   table-layout: fixed;
-  overflow:hidden;
+  overflow: hidden;
   border-radius: 5px;
 }
 
-thead{
-  font-family: 'Source Sans Pro Regular';
+thead {
+  font-family: "Source Sans Pro Regular";
   font-size: 18px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 tr:nth-child(even) {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
-tr{
+tr {
   text-align: center;
   height: 74px;
 }

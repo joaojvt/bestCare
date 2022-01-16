@@ -10,9 +10,9 @@ function App() {
   return (
     <Router basename="/bestCare" >
       <div id="App">
-        <Header/>
-        <Routes/>
-        <Footer/>
+        <Header />
+        <Routes />
+        <Footer />
       </div>
     </Router>
   )

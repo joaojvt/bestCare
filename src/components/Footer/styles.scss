@@ -1,8 +1,8 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
 footer {
   height: 145px;
-  background-color: #312F2D;
+  background-color: #312f2d;
   display: flex;
   justify-content: space-between;
   padding: 39px 117px;
@@ -14,19 +14,19 @@ footer {
   nav {
     width: 400px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 
-    a{
-     color: $primary-color;
-     text-decoration: none;
+    a {
+      color: $primary-color;
+      text-decoration: none;
     }
   }
 
-  .link{
+  .link {
     display: flex;
     justify-content: center;
   }
-  .social-media{
+  .social-media {
     display: flex;
     justify-content: space-between;
     width: 120px;

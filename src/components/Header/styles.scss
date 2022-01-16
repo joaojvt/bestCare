@@ -1,11 +1,11 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
 header {
   height: 109px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
   img {
     height: 40px;
     margin: 32px 28px;
@@ -16,9 +16,9 @@ header {
     margin-right: 146px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Open Sans Regular';
+    font-family: "Open Sans Regular";
 
-    a{
+    a {
       text-decoration: none;
       color: $secondary-color;
       font-size: 18px;
@@ -27,7 +27,8 @@ header {
       transition: all 0.2s;
     }
 
-    a:hover, a.selected {
+    a:hover,
+    a.selected {
       border-bottom: solid 2px $primary-color;
     }
   }

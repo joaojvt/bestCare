@@ -1,49 +1,48 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
-#params{
+#params {
   height: 588px;
 
-  .left{
+  .left {
     width: 100%;
   }
 
-  h3{
+  h3 {
     margin-top: 54px;
     margin-bottom: 18px;
   }
 
-  ul{
+  ul {
     list-style: none;
     margin: 25px 0;
     li {
       margin-bottom: 16px;
-      img{
+      img {
         margin-right: 23px;
       }
     }
   }
 
-  .params-description{
+  .params-description {
     width: 461px;
     margin-bottom: 32px;
   }
-  .params-waves{
+  .params-waves {
     position: absolute;
     z-index: -1;
     top: 500px;
     right: 0;
   }
-
 }
-#table-prices{
+#table-prices {
   background-color: $secondary-backgroud-color;
   width: 100%;
   height: 799px;
-  >div{
+  > div {
     flex-direction: column;
   }
 
-  h3{
+  h3 {
     margin-top: 35px;
     margin-bottom: 20px;
     width: 100%;

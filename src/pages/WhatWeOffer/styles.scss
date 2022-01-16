@@ -1,6 +1,6 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
-#dog-container{
+#dog-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,20 +19,20 @@
   background-image: url(./../../assets/backgroud-dog-golden.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
-  img{
+  img {
     margin-left: -25px;
     margin-bottom: -25px;
   }
 }
 
-#infrasctrure{
+#infrasctrure {
   background-color: $secondary-backgroud-color;
   height: 487px;
   margin-bottom: 61px;
-  > div{
+  > div {
     flex-direction: column;
   }
-  h3{
+  h3 {
     font-size: 48px;
     width: 100%;
     margin-top: 28px;
@@ -40,21 +40,21 @@
 
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
   }
-  .cards-container{
+  .cards-container {
     display: flex;
     justify-content: space-between;
   }
 }
 
-#vet-container{
+#vet-container {
   p {
     width: 529px;
   }
 
-  .rigth-text{
-    h3{
+  .rigth-text {
+    h3 {
       margin-top: 32px;
     }
   }

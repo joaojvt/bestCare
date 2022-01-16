@@ -1,11 +1,11 @@
-@import '../../styles/vars';
+@import "../../styles/vars";
 
-button{
-  background: #FFA318;
+button {
+  background: #ffa318;
   border-radius: 10px;
   color: #fff;
 
-  font-family: 'Open Sans Regular';
+  font-family: "Open Sans Regular";
   font-size: 15px;
   line-height: 25px;
   display: flex;
@@ -14,8 +14,7 @@ button{
 
   width: max-content;
   padding: 6px 40px;
-
 }
-.rounded{
+.rounded {
   border-radius: 20px;
 }

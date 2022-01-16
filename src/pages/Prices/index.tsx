@@ -25,29 +25,29 @@ const Prices = () => {
         <img className="params-waves" src={waves} />
         <div className="container">
           <div className="left">
-          <h3 className="big-text">Our prices can change</h3>
-          <p>
-            Our prices may vary depending on:
-          </p>
+            <h3 className="big-text">Our prices can change</h3>
+            <p>
+              Our prices may vary depending on:
+            </p>
             <ul>
               <li><img src={checkIcon} alt="check" /> Size of your pet</li>
               <li><img src={checkIcon} alt="check" /> Number of days</li>
               <li><img src={checkIcon} alt="check" /> Time of the year</li>
             </ul>
-          <p className="params-description">
-            Also, if you have more than one <span className="yellow-text">pet you get a discount! </span>
-            To know the exact price, get in touch!
-          </p>
-          <Button type="button" onClick={() => history.push('/contact')}>
-            Contact
-          </Button>
+            <p className="params-description">
+              Also, if you have more than one <span className="yellow-text">pet you get a discount! </span>
+              To know the exact price, get in touch!
+            </p>
+            <Button type="button" onClick={() => history.push('/contact')}>
+              Contact
+            </Button>
           </div>
         </div>
       </div>
       <div id="table-prices">
         <div className="container">
           <h3 className="big-text">Check our prices!</h3>
-          <Table rows={tableData}/>
+          <Table rows={tableData} />
         </div>
       </div>
     </>

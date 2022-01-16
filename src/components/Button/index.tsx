@@ -7,8 +7,8 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const Button: React.FC<ButtonProps> = ({ rounded, children, ...rest }) => {
   return (
-    <button {...rest}  className={rounded ? 'rounded' : ''}>
-        {children}
+    <button {...rest} className={rounded ? 'rounded' : ''}>
+      {children}
     </button>
   )
 }
