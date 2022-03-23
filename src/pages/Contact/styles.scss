@@ -1,68 +1,72 @@
 @import "../../styles/vars";
 
-.container {
-  flex-direction: column;
-}
-h1 {
-  font-family: "Source Sans Pro Bold";
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 91px;
-  letter-spacing: 0;
-  text-align: left;
-  margin-top: 80px;
-  margin-bottom: 20px;
-}
-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+#contact {
+  .container {
+    flex-direction: column;
+  }
 
-  label {
-    height: 35px;
-    font-size: 18px;
-    &.textarea-label {
-      display: flex;
-      justify-content: space-between;
-      max-width: 762px;
-      img {
-        position: relative;
-        z-index: 10;
-        width: 182px;
-        height: 261px;
-        margin-top: -129px;
+  h1 {
+    font-family: "Source Sans Pro Bold";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      height: 35px;
+      font-size: 18px;
+      &.textarea-label {
+        display: flex;
+        justify-content: space-between;
+        max-width: 762px;
+        img {
+          position: relative;
+          z-index: 10;
+          width: 182px;
+          height: 261px;
+          margin-top: -129px;
+        }
       }
     }
-  }
 
-  input {
-    height: 48px;
-    width: 391px;
-    border: 1px solid #cecece;
-    border-radius: 15px;
-    padding: 0 5px;
-    font-size: 1rem;
-    margin-bottom: 24px;
-  }
+    input {
+      height: 48px;
+      width: 391px;
+      border: 1px solid #cecece;
+      border-radius: 15px;
+      padding: 0 5px;
+      font-size: 1rem;
+      margin-bottom: 24px;
+    }
 
-  textarea {
-    height: 186px;
-    width: 762px;
-    border-radius: 15px;
-    border: 1px solid #cecece;
-    padding: 8px 6px;
-    font-size: 1rem;
-    margin-bottom: 50px;
-  }
+    textarea {
+      height: 186px;
+      width: 762px;
+      border-radius: 15px;
+      border: 1px solid #cecece;
+      padding: 8px 6px;
+      font-size: 1rem;
+      margin-bottom: 50px;
+      resize: none;
+    }
 
-  .send-button {
-    font-size: 18px;
-    line-height: 25px;
-    width: 164px;
-    height: 44px;
-    display: inline-flex;
-    justify-content: center;
-    margin-bottom: 118px;
+    .send-button {
+      font-size: 18px;
+      line-height: 25px;
+      width: 164px;
+      height: 44px;
+      display: inline-flex;
+      justify-content: center;
+      margin-bottom: 118px;
+    }
   }
 }

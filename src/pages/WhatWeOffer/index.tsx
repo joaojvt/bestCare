@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './styles.scss'
 import goldenDog from '../../assets/dog-golden.png'
 import fanIcon from '../../assets/fan-icon.svg'
